@@ -66,9 +66,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\ArmorFactory.cs" />
+    <Compile Include="Factories\IEquipmentFactory.cs" />
     <Compile Include="Enums\CoinsEnum.cs" />
     <Compile Include="Enums\ActionSelectionEnum.cs" />
     <Compile Include="Enums\SelectionEnum.cs" />
+    <Compile Include="Factories\WeaponFactory.cs" />
     <Compile Include="Orbs\BlueOrb.cs" />
     <Compile Include="Orbs\GreenOrb.cs" />
     <Compile Include="Interfaces\IEquipment.cs" />
@@ -110,6 +113,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

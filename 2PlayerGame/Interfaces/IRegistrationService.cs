@@ -1,6 +1,6 @@
 ﻿namespace _2PlayerGame
 {
-  interface IRegistrationService
+  public interface IRegistrationService
   {
     void Register(IPlayer character);
   }
