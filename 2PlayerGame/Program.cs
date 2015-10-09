@@ -28,6 +28,10 @@ namespace _2PlayerGame
       ICombatService combat = new CombatLogic();
       combat.Battle(playerOne, playerTwo);
 
+      //test
+      int i = 6;
+      //
+
       Console.ReadLine();
     }
   }
