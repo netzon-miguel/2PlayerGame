@@ -3,7 +3,6 @@ namespace _2PlayerGame
 {
   public class WeaponFactory : IEquipmentFactory
   {
-
     public IEquipment CreateEquipment()
     {
       IOutputService message = new ConsoleOutput();
@@ -16,28 +15,28 @@ namespace _2PlayerGame
       switch (selectWeap)
       {
         case Selection.A:
-          {
-            weapon = new Knife();
-            break;
-          }
+        {
+          weapon = new Knife();
+          break;
+        }
 
         case Selection.B:
-          {
-            weapon = new Sword();
-            break;
-          }
+        {
+          weapon = new Sword();
+          break;
+        }
 
         case Selection.C:
-          {
-            weapon = new Blade();
-            break;
-          }
+        {
+          weapon = new Blade();
+          break;
+        }
 
         case Selection.D:
-          {
-            weapon = new Katana();
-            break;
-          }
+        {
+          weapon = new Katana();
+          break;
+        }
       }
       return weapon;
     }

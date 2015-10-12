@@ -4,5 +4,6 @@
   {
     string EquipmentName { get; }
     int EquipmentValue { get; }
+    int EquipmentPrice { get; }
   }
 }

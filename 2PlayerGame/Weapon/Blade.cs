@@ -1,15 +1,20 @@
 ﻿namespace _2PlayerGame
 {
-  class Blade : IEquipment
+  class Knuckles : IEquipment
   {
     public string EquipmentName
     {
-      get { return "Blade"; }
+      get { return "Knuckles"; }
     }
 
     public int EquipmentValue
     {
-      get { return 35; }
+      get { return 15; }
+    }
+
+    public int EquipmentPrice
+    {
+      get { return 100; }
     }
   }
 }

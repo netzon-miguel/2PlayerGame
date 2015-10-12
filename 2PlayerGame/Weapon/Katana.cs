@@ -9,7 +9,12 @@
 
     public int EquipmentValue
     {
-      get { return 40; }
+      get { return 30; }
+    }
+
+    public int EquipmentPrice
+    {
+      get { return 50; }
     }
   }
 }
